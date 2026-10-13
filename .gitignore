@@ -1,0 +1,8 @@
+# native Linux executables are built next to their .strict files without an extension
+*
+!*.*
+!*/
+!LICENSE
+*.strictbinary
+*.exe
+*.mlir
