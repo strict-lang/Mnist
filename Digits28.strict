@@ -1,3 +1,5 @@
 has logger
+constant Pixels = 784
+constant Epochs = 50
 Run
-	logger.Log(Dataset.Images("mnist28", 6).Evaluated("Digits28", (784, 64, 6), 50))
+	logger.Log(Dataset.Images("mnist28", 6).Evaluated("Digits28", (Pixels, 64, 6), Epochs))
