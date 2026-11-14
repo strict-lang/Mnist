@@ -11,4 +11,4 @@ Every fifth image is held out for testing, the others are trained in a new rando
 | `Digits.strict` | 256-32-4 | 100 | 100% of 32 images | 0.49 s | 58 s |
 | `Digits28.strict` | 784-64-6 | 50 | 68-82% of 56 images | 2.8 s | |
 
-Run them from this folder with `strict` of the Strict repository on the PATH (or `..\Strict\strict.exe`), the packages are found next to it: `strict Digits.strict` trains on the Strict VM, `strict build Digits.strict` builds `Digits.exe` and runs it. These are the first steps of the neural network use case of Strict, bigger networks and more images will show what parallel loops on all CPU cores, SIMD and the GPU bring.
+Run them from this folder with `strict` of the Strict repository on the PATH (or `..\Strict\strict.exe`), the packages are found next to it: `strict Digits.strict` trains on the Strict VM, `strict build Digits.strict` builds `Digits.exe`; run `.\Digits.exe` separately (or `./Digits` on Linux/macOS). These are the first steps of the neural network use case of Strict, bigger networks and more images will show what parallel loops on all CPU cores, SIMD and the GPU bring.
